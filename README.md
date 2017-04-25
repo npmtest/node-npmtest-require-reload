@@ -1,6 +1,6 @@
 # npmtest-require-reload
 
-#### test coverage for  [require-reload (v0.2.2)](https://github.com/fastest963/require-reload)  [![npm package](https://img.shields.io/npm/v/npmtest-require-reload.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-require-reload) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-require-reload.svg)](https://travis-ci.org/npmtest/node-npmtest-require-reload)
+#### basic test coverage for  [require-reload (v0.2.2)](https://github.com/fastest963/require-reload)  [![npm package](https://img.shields.io/npm/v/npmtest-require-reload.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-require-reload) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-require-reload.svg)](https://travis-ci.org/npmtest/node-npmtest-require-reload)
 
 #### Reload a require'd module/file. Useful for hot-reloading classes.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-require-reload/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-require-reload/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-require-reload/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-require-reload/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-require-reload/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-require-reload/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-require-reload/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-require-reload/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-require-reload/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-require-reload/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-require-reload/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-require-reload/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
     "scripts": {
         "test": "nodeunit tests"
     },
-    "version": "0.2.2"
+    "version": "0.2.2",
+    "bin": {}
 }
 ```
 
